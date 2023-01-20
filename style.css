@@ -1,8 +1,8 @@
 body {
-  background-color: orangered;
+  background-color: #F6F6F6;
   margin: 0;
   font-family: rubik;
-  color: white;
+  color: black;
 }
 .container {
   padding: 40px;
@@ -14,9 +14,11 @@ h1 {
   font-size: 54px;
 }
 .card {
+  background-image: url("https://www.pngkey.com/png/detail/230-2302492_pokemon-blank-card-template-48746-stock-photography.png");
+  background-position: center;
+  background-size: fill;
+  background-size: 100%;
   list-style: none;
-  padding: 40px;
-  background-color: #f4f4f4;
   color: #222;
   text-align: center;
 }
@@ -32,7 +34,7 @@ h1 {
   margin-top: 5px;
 }
 .card-image {
-  height: 180px;
+  height: 150px;
 }
 #pokedex {
   padding-inline-start: 0;
@@ -41,6 +43,7 @@ h1 {
   grid-gap: 20px;
   list-style: none;
 }
+
 .card:hover {
   animation: bounce 0.5s linear;
 }
